@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\CS_Product_Web_App.Server.props" />
+</Project>

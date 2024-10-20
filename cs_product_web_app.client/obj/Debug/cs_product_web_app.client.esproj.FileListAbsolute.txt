@@ -1,0 +1,1 @@
+C:\Users\gusta\Documents\GitHub\CS-product-web-app\cs_product_web_app.client\obj\Debug\cs_product_web_app.client.esproj.CoreCompileInputs.cache

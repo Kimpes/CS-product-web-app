@@ -1,0 +1,10 @@
+{
+"SpaProxyServer": {
+"ServerUrl": "https://localhost:5173",
+"RedirectUrl": "",
+"LaunchCommand": "npm run dev",
+"WorkingDirectory": "C:\\Users\\gusta\\Documents\\GitHub\\CS-product-web-app\\CS_Product_Web_App.Server\\..\\cs_product_web_app.client",
+"MaxTimeoutInSeconds": "120",
+"KeepRunning": "false"
+}
+}
