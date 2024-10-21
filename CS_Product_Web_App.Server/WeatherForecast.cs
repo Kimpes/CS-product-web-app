@@ -1,3 +1,6 @@
+using System;
+using System.ComponentModel.DataAnnotations;
+
 namespace CS_Product_Web_App.Server
 {
     public class WeatherForecast
