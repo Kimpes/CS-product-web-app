@@ -1,3 +1,22 @@
-.vs
 .github
 node_modules
+
+# Ignore Visual Studio temporary files, build results, and
+# other common files.
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.VC.db
+.vscode/
+bin/
+obj/
+out/
+# Ignore any compiled libraries
+*.dll
+*.pdb
+*.exe
+*.app
+*.log
+*.vsidx

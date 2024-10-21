@@ -33,3 +33,4 @@ C:\Users\gusta\Documents\GitHub\CS-product-web-app\CS_Product_Web_App.Server\obj
 C:\Users\gusta\Documents\GitHub\CS-product-web-app\CS_Product_Web_App.Server\obj\Debug\net8.0\CS_Product_Web_App.Server.pdb
 C:\Users\gusta\Documents\GitHub\CS-product-web-app\CS_Product_Web_App.Server\obj\Debug\net8.0\CS_Product_Web_App.Server.genruntimeconfig.cache
 C:\Users\gusta\Documents\GitHub\CS-product-web-app\CS_Product_Web_App.Server\obj\Debug\net8.0\ref\CS_Product_Web_App.Server.dll
+C:\Users\gusta\Documents\GitHub\CS-product-web-app\CS_Product_Web_App.Server\obj\Debug\net8.0\CS_Product_Web_App.Server.sourcelink.json
