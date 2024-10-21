@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "3q6kLljegPwjx3gK58g+N/vRoPEXslaiGxyQX1E6sqE=",
+  "Hash": "7DsxRFZuePaAPn/m+svja9K3HFkohd3dc2eoxrT2ctg=",
   "Source": "CS_Product_Web_App.Server",
   "BasePath": "_content/CS_Product_Web_App.Server",
   "Mode": "Default",
@@ -11,10 +11,10 @@
       "Version": 2,
       "Source": "cs_product_web_app.client",
       "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
-      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishProperties": "",
       "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
       "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
-      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildProperties": "",
       "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
     }
   ],

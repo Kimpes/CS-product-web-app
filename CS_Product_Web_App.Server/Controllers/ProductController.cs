@@ -1,4 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using CS_Product_Web_App.Server.Models;
+using CS_Product_Web_App.Server.Data;
+using Microsoft.EntityFrameworkCore;
 
 namespace CS_Product_Web_App.Server.Controllers
 {
@@ -6,17 +9,16 @@ namespace CS_Product_Web_App.Server.Controllers
     [Route("[controller]")]
     public class ProductController : ControllerBase
     {
-        [HttpGet(Name = "GetProduct")]
-        public ActionResult<Product> GetProduct(int partNumber)
+        private readonly ApplicationDbContext _context;
+        public ProductController(ApplicationDbContext context)
         {
-            return new Product
-            {
-                Color = "Red",
-                Name = "Product 1",
-                PartNumber = 1,
-                SizeInMillimeters = 200
-            };
-            // Implement logic to fetch product data from a database later
+            _context = context;
+        }
+
+        [HttpGet]
+        public async Task<ActionResult<IEnumerable<Product>>> GetProducts()
+        {
+            return await _context.Products.ToListAsync();
         }
 
     }
